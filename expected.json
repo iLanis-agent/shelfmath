@@ -1,0 +1,1040 @@
+{
+ "cases": [
+  {
+   "fn": "boards",
+   "args": [
+    "4",
+    "30",
+    "96"
+   ],
+   "expect": "The 4 shelves of 30 inches from 96 inch boards take 2 boards, 3 shelves from each board, leaving 72 inches."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "4",
+    "30",
+    "12"
+   ],
+   "expect": "The 4 shelves of 30 inches with brackets 12 inches apart take 4 brackets a shelf, 16 brackets in all."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "16",
+    "4",
+    "25"
+   ],
+   "expect": "The 16 brackets at 4 screws each take 64 screws, in boxes of 25 that is 3 boxes, leaving 11 screws."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2",
+    "14.50",
+    "16",
+    "2.35"
+   ],
+   "expect": "The 2 boards at $14.5 and 16 brackets at $2.35 cost $66.60, boards $29.00 and brackets $37.60."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "1",
+    "96",
+    "96"
+   ],
+   "expect": "The 1 shelf of 96 inches from 96 inch boards take 1 board, 1 shelf from each board, leaving 0 inches."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "1",
+    "1",
+    "1"
+   ],
+   "expect": "The 1 shelf of 1 inches with brackets 1 inches apart take 2 brackets a shelf, 2 brackets in all."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "15791",
+    "32",
+    "55"
+   ],
+   "expect": "The 15791 shelves of 32 inches from 55 inch boards take 15791 boards, 1 shelf from each board, leaving 363193 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "67486",
+    "105",
+    "109"
+   ],
+   "expect": "The 67486 shelves of 105 inches from 109 inch boards take 67486 boards, 1 shelf from each board, leaving 269944 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "42345",
+    "189",
+    "212"
+   ],
+   "expect": "The 42345 shelves of 189 inches from 212 inch boards take 42345 boards, 1 shelf from each board, leaving 973935 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "90168",
+    "298",
+    "1071"
+   ],
+   "expect": "The 90168 shelves of 298 inches from 1071 inch boards take 30056 boards, 3 shelves from each board, leaving 5319912 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "80377",
+    "265",
+    "1093"
+   ],
+   "expect": "The 80377 shelves of 265 inches from 1093 inch boards take 20095 boards, 4 shelves from each board, leaving 663930 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "61483",
+    "338",
+    "711"
+   ],
+   "expect": "The 61483 shelves of 338 inches from 711 inch boards take 30742 boards, 2 shelves from each board, leaving 1076308 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "78442",
+    "122",
+    "989"
+   ],
+   "expect": "The 78442 shelves of 122 inches from 989 inch boards take 9806 boards, 8 shelves from each board, leaving 128210 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "70789",
+    "244",
+    "523"
+   ],
+   "expect": "The 70789 shelves of 244 inches from 523 inch boards take 35395 boards, 2 shelves from each board, leaving 1239069 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "74872",
+    "870",
+    "870"
+   ],
+   "expect": "The 74872 shelves of 870 inches from 870 inch boards take 74872 boards, 1 shelf from each board, leaving 0 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "49695",
+    "365",
+    "544"
+   ],
+   "expect": "The 49695 shelves of 365 inches from 544 inch boards take 49695 boards, 1 shelf from each board, leaving 8895405 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "19087",
+    "219",
+    "331"
+   ],
+   "expect": "The 19087 shelves of 219 inches from 331 inch boards take 19087 boards, 1 shelf from each board, leaving 2137744 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "61670",
+    "625",
+    "1097"
+   ],
+   "expect": "The 61670 shelves of 625 inches from 1097 inch boards take 61670 boards, 1 shelf from each board, leaving 29108240 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "67512",
+    "952",
+    "1105"
+   ],
+   "expect": "The 67512 shelves of 952 inches from 1105 inch boards take 67512 boards, 1 shelf from each board, leaving 10329336 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "49923",
+    "146",
+    "774"
+   ],
+   "expect": "The 49923 shelves of 146 inches from 774 inch boards take 9985 boards, 5 shelves from each board, leaving 439632 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "70310",
+    "353",
+    "382"
+   ],
+   "expect": "The 70310 shelves of 353 inches from 382 inch boards take 70310 boards, 1 shelf from each board, leaving 2038990 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "88612",
+    "123",
+    "244"
+   ],
+   "expect": "The 88612 shelves of 123 inches from 244 inch boards take 88612 boards, 1 shelf from each board, leaving 10722052 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "8764",
+    "752",
+    "889"
+   ],
+   "expect": "The 8764 shelves of 752 inches from 889 inch boards take 8764 boards, 1 shelf from each board, leaving 1200668 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "45238",
+    "426",
+    "603"
+   ],
+   "expect": "The 45238 shelves of 426 inches from 603 inch boards take 45238 boards, 1 shelf from each board, leaving 8007126 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "75529",
+    "43",
+    "151"
+   ],
+   "expect": "The 75529 shelves of 43 inches from 151 inch boards take 25177 boards, 3 shelves from each board, leaving 553980 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "35455",
+    "53",
+    "140"
+   ],
+   "expect": "The 35455 shelves of 53 inches from 140 inch boards take 17728 boards, 2 shelves from each board, leaving 602805 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "17781",
+    "529",
+    "939"
+   ],
+   "expect": "The 17781 shelves of 529 inches from 939 inch boards take 17781 boards, 1 shelf from each board, leaving 7290210 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "21723",
+    "129",
+    "1098"
+   ],
+   "expect": "The 21723 shelves of 129 inches from 1098 inch boards take 2716 boards, 8 shelves from each board, leaving 179901 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "12972",
+    "258",
+    "269"
+   ],
+   "expect": "The 12972 shelves of 258 inches from 269 inch boards take 12972 boards, 1 shelf from each board, leaving 142692 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "27966",
+    "106",
+    "122"
+   ],
+   "expect": "The 27966 shelves of 106 inches from 122 inch boards take 27966 boards, 1 shelf from each board, leaving 447456 inches."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "80287",
+    "23",
+    "225"
+   ],
+   "expect": "The 80287 shelves of 23 inches from 225 inch boards take 8921 boards, 9 shelves from each board, leaving 160624 inches."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "94961",
+    "1059",
+    "1102"
+   ],
+   "expect": "The 94961 shelves of 1059 inches with brackets 1102 inches apart take 2 brackets a shelf, 189922 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "22953",
+    "500",
+    "914"
+   ],
+   "expect": "The 22953 shelves of 500 inches with brackets 914 inches apart take 2 brackets a shelf, 45906 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "69328",
+    "215",
+    "305"
+   ],
+   "expect": "The 69328 shelves of 215 inches with brackets 305 inches apart take 2 brackets a shelf, 138656 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "23638",
+    "585",
+    "1062"
+   ],
+   "expect": "The 23638 shelves of 585 inches with brackets 1062 inches apart take 2 brackets a shelf, 47276 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "74993",
+    "297",
+    "1024"
+   ],
+   "expect": "The 74993 shelves of 297 inches with brackets 1024 inches apart take 2 brackets a shelf, 149986 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "34419",
+    "581",
+    "1151"
+   ],
+   "expect": "The 34419 shelves of 581 inches with brackets 1151 inches apart take 2 brackets a shelf, 68838 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "90624",
+    "870",
+    "932"
+   ],
+   "expect": "The 90624 shelves of 870 inches with brackets 932 inches apart take 2 brackets a shelf, 181248 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "35520",
+    "1167",
+    "964"
+   ],
+   "expect": "The 35520 shelves of 1167 inches with brackets 964 inches apart take 3 brackets a shelf, 106560 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "16810",
+    "450",
+    "347"
+   ],
+   "expect": "The 16810 shelves of 450 inches with brackets 347 inches apart take 3 brackets a shelf, 50430 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "5951",
+    "1100",
+    "1112"
+   ],
+   "expect": "The 5951 shelves of 1100 inches with brackets 1112 inches apart take 2 brackets a shelf, 11902 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "88183",
+    "186",
+    "792"
+   ],
+   "expect": "The 88183 shelves of 186 inches with brackets 792 inches apart take 2 brackets a shelf, 176366 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "86003",
+    "965",
+    "189"
+   ],
+   "expect": "The 86003 shelves of 965 inches with brackets 189 inches apart take 7 brackets a shelf, 602021 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "33160",
+    "342",
+    "657"
+   ],
+   "expect": "The 33160 shelves of 342 inches with brackets 657 inches apart take 2 brackets a shelf, 66320 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "91077",
+    "567",
+    "1177"
+   ],
+   "expect": "The 91077 shelves of 567 inches with brackets 1177 inches apart take 2 brackets a shelf, 182154 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "51897",
+    "125",
+    "374"
+   ],
+   "expect": "The 51897 shelves of 125 inches with brackets 374 inches apart take 2 brackets a shelf, 103794 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "75274",
+    "819",
+    "406"
+   ],
+   "expect": "The 75274 shelves of 819 inches with brackets 406 inches apart take 4 brackets a shelf, 301096 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "36494",
+    "330",
+    "55"
+   ],
+   "expect": "The 36494 shelves of 330 inches with brackets 55 inches apart take 7 brackets a shelf, 255458 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "16556",
+    "603",
+    "329"
+   ],
+   "expect": "The 16556 shelves of 603 inches with brackets 329 inches apart take 3 brackets a shelf, 49668 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "66775",
+    "1199",
+    "666"
+   ],
+   "expect": "The 66775 shelves of 1199 inches with brackets 666 inches apart take 3 brackets a shelf, 200325 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "16204",
+    "214",
+    "838"
+   ],
+   "expect": "The 16204 shelves of 214 inches with brackets 838 inches apart take 2 brackets a shelf, 32408 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "52517",
+    "887",
+    "900"
+   ],
+   "expect": "The 52517 shelves of 887 inches with brackets 900 inches apart take 2 brackets a shelf, 105034 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "75813",
+    "240",
+    "364"
+   ],
+   "expect": "The 75813 shelves of 240 inches with brackets 364 inches apart take 2 brackets a shelf, 151626 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "27019",
+    "104",
+    "1135"
+   ],
+   "expect": "The 27019 shelves of 104 inches with brackets 1135 inches apart take 2 brackets a shelf, 54038 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "72500",
+    "362",
+    "711"
+   ],
+   "expect": "The 72500 shelves of 362 inches with brackets 711 inches apart take 2 brackets a shelf, 145000 brackets in all."
+  },
+  {
+   "fn": "brackets",
+   "args": [
+    "3182",
+    "457",
+    "443"
+   ],
+   "expect": "The 3182 shelves of 457 inches with brackets 443 inches apart take 3 brackets a shelf, 9546 brackets in all."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "640886",
+    "31",
+    "13904"
+   ],
+   "expect": "The 640886 brackets at 31 screws each take 19867466 screws, in boxes of 13904 that is 1429 boxes, leaving 1350 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "764161",
+    "93",
+    "20648"
+   ],
+   "expect": "The 764161 brackets at 93 screws each take 71066973 screws, in boxes of 20648 that is 3442 boxes, leaving 3443 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "519353",
+    "35",
+    "54161"
+   ],
+   "expect": "The 519353 brackets at 35 screws each take 18177355 screws, in boxes of 54161 that is 336 boxes, leaving 20741 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "627908",
+    "2",
+    "32518"
+   ],
+   "expect": "The 627908 brackets at 2 screws each take 1255816 screws, in boxes of 32518 that is 39 boxes, leaving 12386 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "145767",
+    "84",
+    "64108"
+   ],
+   "expect": "The 145767 brackets at 84 screws each take 12244428 screws, in boxes of 64108 that is 191 boxes, leaving 200 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "329023",
+    "88",
+    "83956"
+   ],
+   "expect": "The 329023 brackets at 88 screws each take 28954024 screws, in boxes of 83956 that is 345 boxes, leaving 10796 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "682957",
+    "2",
+    "33524"
+   ],
+   "expect": "The 682957 brackets at 2 screws each take 1365914 screws, in boxes of 33524 that is 41 boxes, leaving 8570 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "105466",
+    "65",
+    "85876"
+   ],
+   "expect": "The 105466 brackets at 65 screws each take 6855290 screws, in boxes of 85876 that is 80 boxes, leaving 14790 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "898922",
+    "83",
+    "26893"
+   ],
+   "expect": "The 898922 brackets at 83 screws each take 74610526 screws, in boxes of 26893 that is 2775 boxes, leaving 17549 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "772144",
+    "65",
+    "45629"
+   ],
+   "expect": "The 772144 brackets at 65 screws each take 50189360 screws, in boxes of 45629 that is 1100 boxes, leaving 2540 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "794614",
+    "37",
+    "42900"
+   ],
+   "expect": "The 794614 brackets at 37 screws each take 29400718 screws, in boxes of 42900 that is 686 boxes, leaving 28682 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "372640",
+    "36",
+    "69065"
+   ],
+   "expect": "The 372640 brackets at 36 screws each take 13415040 screws, in boxes of 69065 that is 195 boxes, leaving 52635 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "232525",
+    "77",
+    "50977"
+   ],
+   "expect": "The 232525 brackets at 77 screws each take 17904425 screws, in boxes of 50977 that is 352 boxes, leaving 39479 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "835865",
+    "83",
+    "34217"
+   ],
+   "expect": "The 835865 brackets at 83 screws each take 69376795 screws, in boxes of 34217 that is 2028 boxes, leaving 15281 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "51336",
+    "66",
+    "89677"
+   ],
+   "expect": "The 51336 brackets at 66 screws each take 3388176 screws, in boxes of 89677 that is 38 boxes, leaving 19550 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "301772",
+    "29",
+    "98625"
+   ],
+   "expect": "The 301772 brackets at 29 screws each take 8751388 screws, in boxes of 98625 that is 89 boxes, leaving 26237 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "605879",
+    "7",
+    "10836"
+   ],
+   "expect": "The 605879 brackets at 7 screws each take 4241153 screws, in boxes of 10836 that is 392 boxes, leaving 6559 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "893210",
+    "9",
+    "576"
+   ],
+   "expect": "The 893210 brackets at 9 screws each take 8038890 screws, in boxes of 576 that is 13957 boxes, leaving 342 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "892010",
+    "14",
+    "20646"
+   ],
+   "expect": "The 892010 brackets at 14 screws each take 12488140 screws, in boxes of 20646 that is 605 boxes, leaving 2690 screws."
+  },
+  {
+   "fn": "screws",
+   "args": [
+    "270268",
+    "73",
+    "37441"
+   ],
+   "expect": "The 270268 brackets at 73 screws each take 19729564 screws, in boxes of 37441 that is 527 boxes, leaving 1843 screws."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "31825",
+    "3453.74",
+    "252774",
+    "1308.77"
+   ],
+   "expect": "The 31825 boards at $3453.74 and 252774 brackets at $1308.77 cost $440738303.48, boards $109915275.50 and brackets $330823027.98."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "4322",
+    "6840.17",
+    "358216",
+    "1192.82"
+   ],
+   "expect": "The 4322 boards at $6840.17 and 358216 brackets at $1192.82 cost $456850423.86, boards $29563214.74 and brackets $427287209.12."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "88509",
+    "28.23",
+    "678191",
+    "8926.71"
+   ],
+   "expect": "The 88509 boards at $28.23 and 678191 brackets at $8926.71 cost $6056512990.68, boards $2498609.07 and brackets $6054014381.61."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1865",
+    "8722.39",
+    "500578",
+    "8597.92"
+   ],
+   "expect": "The 1865 boards at $8722.39 and 500578 brackets at $8597.92 cost $4320196855.11, boards $16267257.35 and brackets $4303929597.76."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47479",
+    "4392.79",
+    "558195",
+    "4260.02"
+   ],
+   "expect": "The 47479 boards at $4392.79 and 558195 brackets at $4260.02 cost $2586487140.31, boards $208565276.41 and brackets $2377921863.90."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "43782",
+    "876.2",
+    "364399",
+    "2816.68"
+   ],
+   "expect": "The 43782 boards at $876.2 and 364399 brackets at $2816.68 cost $1064757163.72, boards $38361788.40 and brackets $1026395375.32."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "64272",
+    "9080.64",
+    "299013",
+    "5379.57"
+   ],
+   "expect": "The 64272 boards at $9080.64 and 299013 brackets at $5379.57 cost $2192192258.49, boards $583630894.08 and brackets $1608561364.41."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "82036",
+    "2822.13",
+    "400809",
+    "5658.01"
+   ],
+   "expect": "The 82036 boards at $2822.13 and 400809 brackets at $5658.01 cost $2499297586.77, boards $231516256.68 and brackets $2267781330.09."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "59350",
+    "4693.5",
+    "287795",
+    "6576.95"
+   ],
+   "expect": "The 59350 boards at $4693.5 and 287795 brackets at $6576.95 cost $2171372550.25, boards $278559225.00 and brackets $1892813325.25."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "17306",
+    "6961.98",
+    "963181",
+    "133.43"
+   ],
+   "expect": "The 17306 boards at $6961.98 and 963181 brackets at $133.43 cost $249001266.71, boards $120484025.88 and brackets $128517240.83."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "81622",
+    "9307.8",
+    "650675",
+    "8993.43"
+   ],
+   "expect": "The 81622 boards at $9307.8 and 650675 brackets at $8993.43 cost $6611521316.85, boards $759721251.60 and brackets $5851800065.25."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "54113",
+    "5535.62",
+    "815967",
+    "2298.73"
+   ],
+   "expect": "The 54113 boards at $5535.62 and 815967 brackets at $2298.73 cost $2175236826.97, boards $299549005.06 and brackets $1875687821.91."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "10435",
+    "6993.43",
+    "405488",
+    "7470.68"
+   ],
+   "expect": "The 10435 boards at $6993.43 and 405488 brackets at $7470.68 cost $3102247533.89, boards $72976442.05 and brackets $3029271091.84."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "11811",
+    "2525.15",
+    "659254",
+    "7764.29"
+   ],
+   "expect": "The 11811 boards at $2525.15 and 659254 brackets at $7764.29 cost $5148463786.31, boards $29824546.65 and brackets $5118639239.66."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "30524",
+    "4581.46",
+    "666568",
+    "5003.56"
+   ],
+   "expect": "The 30524 boards at $4581.46 and 666568 brackets at $5003.56 cost $3475057467.12, boards $139844485.04 and brackets $3335212982.08."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "87631",
+    "5103.98",
+    "745980",
+    "6152.1"
+   ],
+   "expect": "The 87631 boards at $5103.98 and 745980 brackets at $6152.1 cost $5036610429.38, boards $447266871.38 and brackets $4589343558.00."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "41566",
+    "4078.52",
+    "336992",
+    "5315.74"
+   ],
+   "expect": "The 41566 boards at $4078.52 and 336992 brackets at $5315.74 cost $1960889616.40, boards $169527762.32 and brackets $1791361854.08."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "9137",
+    "6564.54",
+    "360418",
+    "2845.8"
+   ],
+   "expect": "The 9137 boards at $6564.54 and 360418 brackets at $2845.8 cost $1085657746.38, boards $59980201.98 and brackets $1025677544.40."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19384",
+    "7846.64",
+    "971654",
+    "2749.64"
+   ],
+   "expect": "The 19384 boards at $7846.64 and 971654 brackets at $2749.64 cost $2823797974.32, boards $152099269.76 and brackets $2671698704.56."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "82346",
+    "9337.42",
+    "940864",
+    "9846.08"
+   ],
+   "expect": "The 82346 boards at $9337.42 and 940864 brackets at $9846.08 cost $10032721400.44, boards $768899187.32 and brackets $9263822213.12."
+  }
+ ],
+ "errors": [
+  [
+   "boards",
+   [
+    "0",
+    "30",
+    "96"
+   ]
+  ],
+  [
+   "boards",
+   [
+    "4",
+    "0",
+    "96"
+   ]
+  ],
+  [
+   "boards",
+   [
+    "4",
+    "30",
+    "0"
+   ]
+  ],
+  [
+   "boards",
+   [
+    "4",
+    "97",
+    "96"
+   ]
+  ],
+  [
+   "boards",
+   [
+    "4",
+    "30",
+    "1201"
+   ]
+  ],
+  [
+   "brackets",
+   [
+    "0",
+    "30",
+    "12"
+   ]
+  ],
+  [
+   "brackets",
+   [
+    "4",
+    "1201",
+    "12"
+   ]
+  ],
+  [
+   "brackets",
+   [
+    "4",
+    "30",
+    "0"
+   ]
+  ],
+  [
+   "brackets",
+   [
+    "4",
+    "30",
+    "1201"
+   ]
+  ],
+  [
+   "screws",
+   [
+    "0",
+    "4",
+    "25"
+   ]
+  ],
+  [
+   "screws",
+   [
+    "16",
+    "0",
+    "25"
+   ]
+  ],
+  [
+   "screws",
+   [
+    "16",
+    "101",
+    "25"
+   ]
+  ],
+  [
+   "screws",
+   [
+    "16",
+    "4",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "14.50",
+    "16",
+    "2.35"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "2",
+    "0",
+    "16",
+    "2.35"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "2",
+    "14.50",
+    "0",
+    "2.35"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "2",
+    "14.50",
+    "16",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "2",
+    "14.50",
+    "16",
+    "10000.01"
+   ]
+  ]
+ ]
+}
