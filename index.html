@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shelf Math - shelf board and bracket arithmetic</title>
+<style>
+  :root { --accent:#1f4fa0; --ink:#121a2e; --paper:#f1f4fb; --soft:#dde5f6; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#55689a; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Shelf Math</h1>
+  <p class="lede">The 4 shelves of 30 inches from 96 inch boards take 2 boards, 3 shelves from each board, leaving 72 inches.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Shelf Math counts shelf boards, brackets and screws with division and rounding-up: the boards a set of shelves takes, the brackets along each shelf, the screws and their boxes, and the cost. It uses no named constants. It applies the counting as written, so it has not seen your wall or your shelf and does not know your fasteners, your studs, your bracket ratings or what you will put on the shelf, and it gives no verdict that a shelf is strong enough or safe to load. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 4 shelves of 30 inches from 96 inch boards, brackets 12 inches apart, 4 screws a bracket in boxes of 25, boards at $14.50 and brackets at $2.35.</p>
+  <section>
+    <h2>The boards truth</h2>
+    <p>The 4 shelves of 30 inches from 96 inch boards take 2 boards, 3 shelves from each board, leaving 72 inches.</p>
+  </section>
+  <section>
+    <h2>The brackets and screws truths</h2>
+    <p>The 4 shelves of 30 inches with brackets 12 inches apart take 4 brackets a shelf, 16 brackets in all. The 16 brackets at 4 screws each take 64 screws, in boxes of 25 that is 3 boxes, leaving 11 screws.</p>
+  </section>
+  <section>
+    <h2>The cost truth</h2>
+    <p>The 2 boards at $14.5 and 16 brackets at $2.35 cost $66.60, boards $29.00 and brackets $37.60.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Shelf Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
